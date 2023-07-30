@@ -21,7 +21,7 @@ services:
   recharge:
     image: jameema25/rechargeservice:latest
     ports:
-      -"83:80"
+      - "83:80"
     deploy:
       replicas: 3
 
